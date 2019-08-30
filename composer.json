@@ -1,0 +1,31 @@
+{
+    "name": "devsergeev/yii2-inn-validator",
+    "description": "Yii2 INN validator",
+    "keywords": ["yii2", "yii2-inn-validator", "Yii2 INN validator", "Yii2 ИНН валидатор"],
+    "type": "yii2-extension",
+    "authors": [
+        {
+            "name": "devsergeev",
+            "email": "sergeev.vasily.v@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.1",
+        "yiisoft/yii2": "~2.0.0",
+        "devsergeev/inn-validator": "^1.0.0"
+    },
+    "require-dev": {
+        "roave/security-advisories": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "devsergeev\\yii2Validators\\": "src"
+        }
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ]
+}
