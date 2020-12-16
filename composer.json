@@ -10,7 +10,7 @@
         }
     ],
     "require": {
-        "php": "^7.1",
+        "php": ">=7.1",
         "yiisoft/yii2": "~2.0.0",
         "devsergeev/inn-validator": "^1.0.0"
     },
